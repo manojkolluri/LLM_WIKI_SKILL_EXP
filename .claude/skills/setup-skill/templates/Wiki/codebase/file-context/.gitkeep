@@ -1,0 +1,7 @@
+One context file per source file. Mirrors the source-tree structure.
+
+Naming convention: `<source-path>.context.md` (e.g., for `web/app/page.tsx`, the context file lives at `Wiki/codebase/file-context/web/app/page.tsx.context.md`).
+
+Each context file follows the template defined in `Wiki/codebase/file-inventory.md` — Purpose, Key sections / entry points, Dependencies, Gotchas / things to know.
+
+This file (.gitkeep) exists only to make the empty folder trackable in git. Delete it once the folder has real context files.

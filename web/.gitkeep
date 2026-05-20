@@ -1,0 +1,11 @@
+Production code lives here.
+
+The stack is intentionally NOT chosen at scaffold time — populate this folder once the stack decision is made (Next.js, Python+FastAPI, etc.). Whatever you build inside this folder gets full Wiki coverage per the rules in `Wiki/codebase/conventions.md`.
+
+When you populate this folder:
+- Add each meaningful file to `Wiki/codebase/file-inventory.md`.
+- Create a matching context file at `Wiki/codebase/file-context/web/<path-to-file>.context.md`.
+- Update `Wiki/codebase/architecture.md` with the framework decision and its reasoning.
+- Update `Wiki/codebase/conventions.md` with stack-specific rules (TypeScript strict mode, styling approach, env var prefix conventions, etc.).
+
+This .gitkeep exists only to make the empty folder trackable in git. Delete it once `web/` contains real production code.

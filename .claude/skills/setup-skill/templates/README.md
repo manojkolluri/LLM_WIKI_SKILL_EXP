@@ -1,6 +1,6 @@
-# Aspirants.io
+# {{PROJECT_NAME}}
 
-An AI study platform that helps users prepare for AWS Certification exams.
+{{PROJECT_SUMMARY}}
 
 ## Repo layout
 

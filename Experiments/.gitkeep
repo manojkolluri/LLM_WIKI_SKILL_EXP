@@ -1,0 +1,7 @@
+Agent-created prototypes built on user request — initial-design artifacts iterated on before deciding what to build for real.
+
+Files inside this folder are NOT tracked file-by-file in the Wiki (no inventory rows, no context files). They have a throwaway-or-graduate lifecycle: build, iterate, then either port into production code or discard.
+
+When a prototype graduates to production, the production version DOES get full Wiki coverage per the normal rules in `Wiki/codebase/conventions.md`.
+
+This .gitkeep exists only to make the empty folder trackable in git.

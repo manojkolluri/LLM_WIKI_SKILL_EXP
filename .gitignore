@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# Environment variables (do not commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Node / npm (uncomment if using Node)
+# node_modules/
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
+
+# Next.js (uncomment if using Next.js)
+# .next/
+# next-env.d.ts
+# *.tsbuildinfo
+
+# Python (uncomment if using Python)
+# __pycache__/
+# *.py[cod]
+# *$py.class
+# .venv/
+# venv/
+# *.egg-info/
+
+# Build outputs (uncomment as needed)
+# dist/
+# build/
+
+# Vercel CLI metadata
+.vercel

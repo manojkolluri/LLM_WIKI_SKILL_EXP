@@ -1,0 +1,7 @@
+Reference snippets the user provides for the agent to use as canonical examples when building production code.
+
+Files inside this folder are NOT tracked file-by-file in the Wiki (no inventory rows, no context files). They have a throwaway-or-graduate lifecycle: drop in, iterate, then either port into production code or discard.
+
+When an example graduates to production, the production version DOES get full Wiki coverage per the normal rules in `Wiki/codebase/conventions.md`.
+
+This .gitkeep exists only to make the empty folder trackable in git.

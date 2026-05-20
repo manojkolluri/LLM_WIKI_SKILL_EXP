@@ -1,0 +1,5 @@
+One context file per database function. Naming convention: `<function_name>.context.md`.
+
+Each context file follows the template defined in `Wiki/database/function-inventory.md`.
+
+This .gitkeep file exists only to make the empty folder trackable in git. Delete it once the folder has real context files.
